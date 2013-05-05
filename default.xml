@@ -369,7 +369,7 @@
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  
+  <project path="platform_aosp" name="platform_aosp" revision="mirage" />
   <project path="vendor/caprice" name="vendor_caprice" revision="caprice" />
 
 </manifest>
