@@ -28,7 +28,7 @@
   <remote name="xy"
            fetch="git://github.com/XYAOSP/" />
 
-  <default revision="refs/tags/android-4.2.2_r1.1"
+  <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
