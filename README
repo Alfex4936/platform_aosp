@@ -1,0 +1,16 @@
+Setting Repo
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+
+    mkdir ~/bin
+    export PATH=~/bin:$PATH
+    curl https://raw.github.com/franco-c/Repo/master/repo > ~/bin/repo
+    chmod a+x ~/bin/repo
+
+Syncing the Caprice Source
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+
+    mkdir ~/mirage
+    cd ~/mirage
+    repo init -u git://github.com/franco-c/platform_aosp.git -b mirage
+    repo sync -f -j12
+
